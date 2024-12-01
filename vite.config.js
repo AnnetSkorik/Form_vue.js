@@ -13,8 +13,7 @@ export default defineConfig({
   },
   build: {
     rollupOptions: {
-      // Убедитесь, что путь к main.js правильный
-      external: ["/src/main.js"], // добавьте другие модули, если нужно
+      external: ["/src/main.js"], 
     },
   },
 });
